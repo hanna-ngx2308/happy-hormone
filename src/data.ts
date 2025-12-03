@@ -443,7 +443,7 @@ export const elements: HappyElement[] = [
   },
   {
     id: 37,
-    name: "PACKETS (SNACKS)", // Updated Name
+    name: "PACKETS", // Updated Name
     type: "F",
     level: 2,
     category: "endorphins",
@@ -466,4 +466,5 @@ export const types: TypeDef[] = [
   { key: "P", label: "PHYSICAL HABIT" },
   { key: "M", label: "MENTAL HABIT" },
   { key: "F", label: "FOOD" },
+
 ];
