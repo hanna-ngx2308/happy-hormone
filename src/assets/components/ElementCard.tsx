@@ -17,7 +17,7 @@ interface ElementCardProps {
 const CARD_SIZE = "90px";
 const ICON_SIZE = "40px";
 
-// Animation cho Popup hiện ra mượt mà
+
 const popIn = keyframes`
   from { opacity: 0; transform: translate(10px, -50%) scale(0.9); }
   to { opacity: 1; transform: translate(0, -50%) scale(1); }
@@ -193,7 +193,7 @@ const ElementCard: React.FC<ElementCardProps> = ({
 }) => {
   const isDefault = activeFilter === null;
 
-  // Logic Match: Phân biệt rõ number (ID) và string (Category/Level)
+  
   const isMatch =
     (typeof activeFilter === "number" && activeFilter === data.id) || 
     (typeof activeFilter === "string" && (
@@ -205,7 +205,7 @@ const ElementCard: React.FC<ElementCardProps> = ({
   const isDimmed = !isDemo && !(isDefault || isMatch);
   const isHighlight = Boolean(!isDemo && !isDefault && isMatch);
 
-  // Popup Logic: Chỉ hiện khi Lock đúng ID
+  
   const showPopup = !isDemo && 
                     (activeFilter === data.id) && 
                     (data.recommendation || data.mainEffect);
@@ -263,5 +263,6 @@ const ElementCard: React.FC<ElementCardProps> = ({
     </CardContainer>
   );
 };
+
 
 export default ElementCard;
