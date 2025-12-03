@@ -256,7 +256,7 @@ export const elements: HappyElement[] = [
     icon: "strawberry.svg",
     row: 3,
     colStart: 3,
-    recommendation: "1 cup/day",
+    recommendation: "100–150g/day",
     mainEffect: "Rich in Vitamin C and antioxidants",
   },
   {
@@ -345,7 +345,7 @@ export const elements: HappyElement[] = [
   },
   {
     id: 29,
-    name: "ENTERTAINMENT (FUN CONTENT)", // Updated Name
+    name: "ENTERTAINMENT", // Updated Name
     type: "M",
     level: 3,
     category: "endorphins",
@@ -468,3 +468,4 @@ export const types: TypeDef[] = [
   { key: "F", label: "FOOD" },
 
 ];
+
