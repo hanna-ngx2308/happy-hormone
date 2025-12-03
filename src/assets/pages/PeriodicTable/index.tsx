@@ -106,7 +106,7 @@ const ArrowHead = styled.div`
   border-bottom: 8px solid black;
 `;
 
-// --- [NEW] Component: Nút tròn (Knob) ---
+// Nút tròn 
 const SliderKnob = styled.div`
   width: 12px;
   height: 12px;
@@ -370,5 +370,6 @@ const PeriodicTable: React.FC = () => {
     </PageWrapper>
   );
 };
+
 
 export default PeriodicTable;
