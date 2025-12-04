@@ -456,7 +456,7 @@ export const elements: HappyElement[] = [
 ];
 
 export const categories: CategoryDef[] = [
-  { key: "dopamine", label: "DOPAMINE", colorClass: "border-yellow-400 text-yellow-600" },
+  { key: "dopamine", label: "DOPAMINE Achievement & Motivation", colorClass: "border-yellow-400 text-yellow-600" },
   { key: "oxytocin", label: "OXYTOCIN", colorClass: "border-red-400 text-red-600" },
   { key: "serotonin", label: "SEROTONIN", colorClass: "border-green-400 text-green-600" },
   { key: "endorphins", label: "ENDORPHINS", colorClass: "border-purple-400 text-purple-600" },
@@ -468,5 +468,6 @@ export const types: TypeDef[] = [
   { key: "F", label: "FOOD" },
 
 ];
+
 
 
