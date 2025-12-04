@@ -274,7 +274,7 @@ export const elements: HappyElement[] = [
   {
     id: 23,
     name: "AVOCADO",
-    type: "F/M", // Updated based on input
+    type: "F", // Updated based on input
     level: 3,
     category: "oxytocin",
     icon: "avocado.svg",
@@ -468,4 +468,5 @@ export const types: TypeDef[] = [
   { key: "F", label: "FOOD" },
 
 ];
+
 
