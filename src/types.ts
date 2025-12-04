@@ -15,9 +15,10 @@ export interface HappyElement {
 }
 
 export interface CategoryDef {
-  key: CategoryKey;
+  key: string;
   label: string;
-  colorClass: string; // Class tailwind cho border/text
+  subLabel?: string;   // Thêm optional field
+  colorClass: string;
 }
 
 export interface TypeDef {
@@ -37,3 +38,4 @@ export interface HappyElement {
   recommendation?: string;
   mainEffect?: string;
 }
+
