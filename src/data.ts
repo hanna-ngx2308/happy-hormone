@@ -456,24 +456,11 @@ export const elements: HappyElement[] = [
 ];
 
 export const categories: CategoryDef[] = [
-  <div class="hormone-names">
-    <div class="hormone-name dopamine-color">
-        DOPAMINE
-        <div class="hormone-sublabel">Achievement & Motivation</div>
-    </div>
-    <div class="hormone-name oxytocin-color">
-        OXYTOCIN
-        <div class="hormone-sublabel">Love · Trust · Bonding</div>
-    </div>
-    <div class="hormone-name serotonin-color">
-        SEROTONIN
-        <div class="hormone-sublabel">Mood · Calm · Stability</div>
-    </div>
-    <div class="hormone-name endorphins-color">
-        ENDORPHINS
-        <div class="hormone-sublabel">Pain Relief · Pleasure</div>
-    </div>
-</div>
+  { key: "dopamine", label: "DOPAMINE Achievement & Motivation", colorClass: "border-yellow-400 text-yellow-600" },
+  { key: "oxytocin", label: "OXYTOCIN", colorClass: "border-red-400 text-red-600" },
+  { key: "serotonin", label: "SEROTONIN", colorClass: "border-green-400 text-green-600" },
+  { key: "endorphins", label: "ENDORPHINS", colorClass: "border-purple-400 text-purple-600" },
+];
 
 export const types: TypeDef[] = [
   { key: "P", label: "PHYSICAL HABIT" },
@@ -481,3 +468,7 @@ export const types: TypeDef[] = [
   { key: "F", label: "FOOD" },
 
 ];
+
+
+
+
